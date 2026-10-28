@@ -1,0 +1,13 @@
+# Release Notes (v1.0.0 — Initial Google Play Release)
+
+Copy and paste the block below into the **Release notes** field in Google Play Console:
+
+```xml
+<en-US>
+Initial release of PrismCalc (v1.0.0):
+• 3 Full-Featured Modes: Normal, Scientific (DEG/RAD/GRAD), and 64-Bit Programmer Mode (HEX/DEC/OCT/BIN + interactive bit matrix).
+• 3 Custom Visual Skins: Retro Pixel B/W, Modern Minimalist, and Futuristic Cyber HUD.
+• Tactile skin-aware haptics & synthesized button audio.
+• 100% Offline & Privacy-First: Zero network permissions, zero ads, and zero data collection.
+</en-US>
+```

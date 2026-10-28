@@ -1,0 +1,38 @@
+PrismCalc: Multi-Mode Calculator (Normal, Scientific & Programmer)
+
+Experience precision engineering and tactile design on Android. PrismCalc combines three specialized calculation engines with distinct, customizable visual skins—built from the ground up with 100% offline execution, zero permissions, and zero data collection.
+
+THREE POWERFUL CALCULATION MODES
+1. Normal Mode:
+• High-precision 128-bit decimal arithmetic (34 significant figures) eliminating floating-point rounding artifacts (0.1 + 0.2 = 0.3 exact).
+• Full operator precedence (PEMDAS/BODMAS) with smart parentheses and live expression preview as you type.
+• Contextual percentage calculations (markup, discount, ratios) and dedicated Memory keys (MC, MR, M-, M+) with live memory indicator.
+
+2. Scientific Mode:
+• Complete trigonometric suite (sin, cos, tan, asin, acos, atan) across Degrees (DEG), Radians (RAD), and Gradians (GRAD) with exact unit-circle boundary lookup tables.
+• Hyperbolic and inverse hyperbolic functions (sinh, cosh, tanh, asinh, acosh, atanh).
+• Logarithmic & exponential operations: natural log (ln), base-10 log (log10), base-2 log (log2), e^x, 10^x, arbitrary powers (x^y), square root, cube root, reciprocal (1/x), and absolute value.
+• Exact large-integer factorials (up to 1000!) and high-precision mathematical constants (π and e).
+
+3. Programmer Mode:
+• Live simultaneous 4-base synchronization across Hexadecimal (HEX), Decimal (DEC), Octal (OCT), and Binary (BIN).
+• Selectable hardware word sizes: QWORD (64-bit), DWORD (32-bit), WORD (16-bit), and BYTE (8-bit) with two's complement Signed and Unsigned modes.
+• Full bitwise logic suite: AND, OR, XOR, NOT, NAND, NOR, plus bit shifts (LSH, RSH) and bit rotations (ROL, ROR).
+• Interactive 64-bit binary toggle matrix allowing direct bit inspection and single-tap bit flipping.
+
+DISTINCT CUSTOMIZABLE VISUAL SKINS
+Transform the entire look, typography, geometry, and tactile feel of your calculator:
+• Retro Pixel B/W Skin: Crisp 1-bit monochrome dot-matrix LCD aesthetic with monospace pixel typography, sharp 0dp corners, and heavy tactile borders.
+• Modern Minimalist Skin: Sleek contemporary dark slate aesthetic with squircle geometry, subtle elevation, and refined typography.
+• Futuristic Cyber HUD Skin: Sci-fi HUD interface with neon cyan, magenta, and amber accents, chamfered cut-corner geometry, and subtle scanline overlays.
+
+TACTILE HAPTICS, PROCEDURAL AUDIO & RESPONSIVE LAYOUTS
+• Skin-Aware Haptic Feedback: Custom vibration profiles tailored to each skin (crisp mechanical tick for Retro Pixel, subtle micro-pulse for Modern, double-pulse HUD feedback for Futuristic).
+• Zero-Asset Procedural Audio Synthesizer: Optional real-time synthesized 16-bit PCM button click waveforms generated in memory.
+• Persistent Local History Tape: Review past calculations, tap any entry to recall its result, or tap EXPR to re-edit the full expression.
+• Adaptive Layouts: Automatically adapts to Phone Portrait, Phone Landscape (split display & keypad), and Tablet/Foldable Dual-Pane Workstation layouts.
+
+STRICT PRIVACY & ZERO TELEMETRY
+• 100% Offline: Requires zero internet, network, storage, contacts, or location permissions.
+• No Sign-In or Accounts: Open the app and calculate immediately.
+• Zero Tracking: No analytics SDKs, no crash-reporting telemetry, no ads, and cloud backup explicitly disabled (`android:allowBackup="false"`) so your calculation history never leaves your device.

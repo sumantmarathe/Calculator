@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5D4"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect x="64" y="56" width="384" height="120" rx="28" fill="#091020" stroke="#38BDF8" stroke-width="6"/>
+  <text x="416" y="138" font-family="monospace" font-size="60" font-weight="bold" fill="#00F5D4" text-anchor="end">0.3</text>
+  <!-- Keypad 2x2 symbolic grid -->
+  <rect x="64" y="204" width="176" height="112" rx="24" fill="#26334D" stroke="#334155" stroke-width="4"/>
+  <text x="152" y="280" font-family="sans-serif" font-size="64" font-weight="bold" fill="#F8FAFC" text-anchor="middle">+</text>
+  <rect x="272" y="204" width="176" height="112" rx="24" fill="#26334D" stroke="#334155" stroke-width="4"/>
+  <text x="360" y="278" font-family="sans-serif" font-size="64" font-weight="bold" fill="#FBBF24" text-anchor="middle">−</text>
+  <rect x="64" y="340" width="176" height="116" rx="24" fill="#26334D" stroke="#334155" stroke-width="4"/>
+  <text x="152" y="418" font-family="sans-serif" font-size="58" font-weight="bold" fill="#38BDF8" text-anchor="middle">×</text>
+  <rect x="272" y="340" width="176" height="116" rx="24" fill="url(#accentGrad)"/>
+  <text x="360" y="420" font-family="sans-serif" font-size="68" font-weight="bold" fill="#05070E" text-anchor="middle">=</text>
+</svg>

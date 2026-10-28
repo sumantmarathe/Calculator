@@ -1,0 +1,25 @@
+# Google Play Production Release Checklist
+
+- [x] **Application ID & Versioning**: Configured as `com.prismcalc.calculator`, `versionCode = 1`, `versionName = "1.0.0"`, `compileSdk = 34`, `targetSdk = 34`, `minSdk = 26`.
+- [x] **Strict Offline & Privacy Compliance**:
+  - [x] Zero network permissions (`INTERNET` and `ACCESS_NETWORK_STATE` absent from source and merged manifests).
+  - [x] Zero storage, location, camera, microphone, or contacts permissions.
+  - [x] `android:allowBackup="false"` and `android:usesCleartextTraffic="false"` enforced.
+  - [x] Automated Gradle tasks `:app:verifyManifestPrivacy` and `:app:verifyDependenciesPrivacy` passing.
+- [x] **Calculator Modes**:
+  - [x] Normal Mode (DECIMAL128 precision, PEMDAS, smart parentheses, contextual `%`, `MC`/`MR`/`M-`/`M+`).
+  - [x] Scientific Mode (`DEG`/`RAD`/`GRAD` exact boundary trig, inverse/hyperbolic trig, `ln`/`log10`/`log2`, powers, roots, factorials up to `1000!`, $\pi$, $e$).
+  - [x] Programmer Mode (`HEX`/`DEC`/`OCT`/`BIN` live conversion, `QWORD`/`DWORD`/`WORD`/`BYTE`, signed/unsigned two's complement, `AND`/`OR`/`XOR`/`NOT`/`NAND`/`NOR`, `LSH`/`RSH`/`ROL`/`ROR`, interactive 64-bit toggle matrix).
+- [x] **Visual Skins & Polish**:
+  - [x] Retro Pixel B/W skin, Modern Minimalist skin, and Futuristic Cyber HUD skin.
+  - [x] Skin-aware tactile haptics and zero-asset procedural PCM audio synthesizer.
+  - [x] Persistent local calculation history tape and preference persistence across restarts.
+  - [x] Responsive Phone Portrait, Phone Landscape, and Tablet Dual-Pane Workstation layouts.
+- [x] **R8 Minification & Resource Shrinking**:
+  - [x] `isMinifyEnabled = true` and `isShrinkResources = true` verified with `proguard-rules.pro`.
+- [x] **Store Listing Assets**:
+  - [x] `short_description.txt` (<= 80 chars)
+  - [x] `full_description.txt` (<= 4000 chars)
+  - [x] `privacy_policy.md` & `privacy_policy.html`
+  - [x] `data_safety.md`
+  - [x] `graphics/app_icon_512.svg`, `graphics/app_icon_512.png`, `graphics/feature_graphic_1024x500.svg`, `graphics/feature_graphic_1024x500.png`
